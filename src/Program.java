@@ -28,5 +28,8 @@ public class Program {
         catch (DomainException e){
             System.out.println("Withdraw error: " + e.getMessage());
         }
+        catch (Exception e ){
+            System.out.println("Error unexpected");
+        }
     }
 }
